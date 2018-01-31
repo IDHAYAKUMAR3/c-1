@@ -2,9 +2,9 @@
 #include<string.h>
 int main() 
 {
-char a;
-scanf("%c",&a);
-if((a>='a'&&a<='z')||(a>='A'&&a<='Z'))
+char z;
+scanf("%c",&z);
+if((z>='a'&&z<='z')||(z>='A'&&z<='Z'))
 {
 printf("Alphabet");
 }
