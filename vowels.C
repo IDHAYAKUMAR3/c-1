@@ -9,11 +9,11 @@ b=(a=='a'||a=='e'||a=='i'||a=='o'||a=='u');
 c=(a=='A'||a=='E'||a=='I'||a=='O'||a=='U');
 if(b||c)
 {
-printf("VOWEL");
+printf("Vowel");
 }
 else
 {
-printf("CONSONANT");
+printf("Consonant");
 }
 return 0;
 }
