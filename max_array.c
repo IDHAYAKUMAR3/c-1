@@ -5,19 +5,11 @@ int j=1,n,a[20],i,c;
 scanf("%d",&n);
 for(i=0;i<n;i++)
 {
-scanf("%d",a[i]);
+scanf("%d",&a[i]);
 }
-for(i=0;i<n;i++)
+for(i=0;i<(n-1);i++)
 {
-if(a[i]>a[j])
-{
-c=a[i];
-}
-else
-{
-c=a[j];
-}
-j++;
+c=a[i]>a[j]?a[i]:a[i+1];
 }
 printf("%d",c);
 return 0;
